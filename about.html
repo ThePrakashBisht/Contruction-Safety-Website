@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.bgimg {
+  background-image: url('aboutus.png');
+  /* filter: brightness(60%); */
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="blue minimalist studio logo.png" alt="logo" height="36"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+        <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="index.html#tips" class="w3-bar-item w3-button"><i class="fa fa-lightbulb-o"></i> TIPS</a>
+      <a href="index.html#videos" class="w3-bar-item w3-button"><i class="fa fa-video-camera"></i> VIDEOS</a>
+      <a href="index.html#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#tips" onclick="w3_close()" class="w3-bar-tip w3-button">TIPS</a>
+  <a href="#videos" onclick="w3_close()" class="w3-bar-video w3-button">VIDEOS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+
+
+<div class="bgimg w3-display-container " style="text-align: center;">
+   
+    <div class="w3-display" style="width: 70%; margin: 0 auto; text-align: center; align-items: center;">
+      <h1 class="w3-jumbo " style="text-align: center; color:white; margin-top: 60px;">ABOUT US</h1>
+      <hr class="w3-border-grey" style="margin:auto;width:100%">
+      <p class="w3 w3-center" style="color: white;">In today's world road and transport has become an integral partof every human being. Every body is a road user in one shape or the other. The present transport system has minimized the distances but it has on the other hand increased the life risk. Every year road crashes result in loss of lakhs of lives and serious injuries to crores of people.
+
+        In India itself about eighty thousand people are killed in road crashes every year which is thirteen percent of the total fatality all over the world. Man behind the wheel plays an important role in most of the crashes. In most of the cases crashes occurs either due to carelessness or due to lack of road safety awarenessof the road user. Hence, road safety education is as essential as any other basic skills of survival.
+        
+        Our aim is to provide road safety information for road users to encourage safer road user behaviour among current and prospective road users and reduce the number of people killed and injured on our roads every year.</p>
+    </div>
+    <div class="w3-display-bottomleft w3-padding-large">
+    </div>
+  </div>
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+
+  <p>&copy;2021 Ronak Mavi Project | All Rights Reserved</p>
+ </footer>
+
+
+ 
+
+
+</body>
+</html>
